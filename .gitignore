@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build and deploy output
+dist/
+build/
+out/
+.next/
+.vercel/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local working files
+_preview/
+*.py
+*.txt
+repo.json
+images/align-preview.jpg
+images/align-preview-62.jpg
+images/fit-cover.jpg
+images/fit-stretch.jpg
+images/mask-preview.jpg
+images/mask-tight.jpg
